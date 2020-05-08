@@ -1,6 +1,6 @@
 <template>
-    <div id="app">
-        <Home></Home>
+    <div id="app" >
+        <Home ></Home>
     </div>
 </template>
 
@@ -13,10 +13,13 @@
             Home,
         }
     }
+
+
 </script>
 
 <style>
     #app {
-
+        width: 400px;
+        height: 300px;
     }
 </style>
