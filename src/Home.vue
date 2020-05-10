@@ -40,18 +40,16 @@
 <style lang="scss" scoped>
     /*.body {*/
     /*width: 100%;*/
-    /*display: flex;*/
     .card-component {
+
         .card-header {
             position: relative;
             width: 400px;
             height: 220px;
-
             img {
                 width: 100%;
                 height: 100%;
                 transition: all 0.2s linear;
-
                 &:hover {
                     transform: scale(1.2, 1.2);
                     filter: contrast(130%);
@@ -71,7 +69,6 @@
             background-color: #fff;
             margin: auto;
             box-shadow: none !important;
-
             /deep/ .pan-info {
                 box-shadow: none !important;
             }
